@@ -1,0 +1,140 @@
+
+*{
+    margin: 0px;
+}
+
+/* HOME PAGE */
+.hm-body {
+   
+
+}
+.nav-tbl{
+    float: left;
+    visibility: visible;
+    background-color: rgb(14, 11, 22);
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+    font-weight: bold;
+    gap: 2;
+    padding: 24px;
+   
+}
+td>a {
+    color: white;
+    text-decoration: none;
+}
+.navbar{
+    float: left;
+    background-color: rgb(14, 11, 22);
+    /* display: flex; */
+    /* justify-content: space-around; */
+    align-items: center;
+    /* width: 100vw;
+    height: 48px; */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.navbar>a {
+    color: white;
+    text-decoration: none;
+}
+ .navbar> a:active {
+   color: green;
+   text-decoration: underline;
+ }
+body {
+    background-color: ;
+}
+
+.bd-content {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+.bd-content-dadimg{
+display: flex;
+justify-content: space-between
+
+}
+.photo-avatar{
+    width: 5cm;
+    height: 7cm;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+footer{
+display: flex;
+justify-content: center;
+background-color: rgb(14, 11, 22);
+width: 100vw;
+height: 5vw;
+align-items: center;
+}
+.footer-div{
+display: block;
+gap: 1vw;
+color: white;
+font-family: 'Times New Roman', Times, serif;
+}
+
+/* FAMILY TREE PAGE */
+.component-person{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2cm;
+    margin-top: 10vh;
+    margin-left:  2vw;
+    margin-right: 2vw;
+
+}
+.component-person-even{
+display: flex;
+flex-direction: row-reverse;
+gap: 2cm;
+margin-top: 10vh;
+margin-left: 2vw;
+margin-right: 2vw;
+}
+
+
+
+
+
+
+/* EVENTS PAGE */
+
+
+
+
+
+
+
+
+/* IMPORTANT DATES PAGE */
+
+
+
+
+/* GALLERY PAGE */
+
+.gallery-cells{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+   
+}
+
+.img-card{
+    display: block;
+}
+
+/* BREAK POINTS */
+@media (max-width:600px) {
+    .navbar {
+        display: none;
+    }
+.nav-tbl{
+    visibility:visible;
+}
+   
+}
